@@ -4,7 +4,7 @@ body {
 }
 
 #login-page,
-#main-page {
+#todo-list {
     max-width: 600px;
     margin: 0 auto;
 }
@@ -14,7 +14,7 @@ body {
 }
 
 body {
-    background-image: url('/images/pngtree-blue-background-with-geometric-forms-image_280879.jpg');
+    background-image: url('images/pngtree-blue-background-with-geometric-forms-image_280879.jpg');
 
     display: flex;
     justify-content: center;
@@ -29,6 +29,9 @@ body {
 h1 {
     text-align: center;
     color: white;
+    padding-top: 5%;
+    font-weight: 700;
+    padding-bottom: 2%;
 }
 
 #login-form {
@@ -52,5 +55,23 @@ label {
     margin-left: 5px;
 }
 #logout-link{
-    color:black;
+    color: red;
+    font-weight: 600;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navbar .navbar-brand{
+    color: red;
+    font-weight: 600;
+    margin-left: 1%;
+}
+.navbar-nav{
+    padding-right: 1%;
+}
+label{
+    font-weight: 700;
 }
