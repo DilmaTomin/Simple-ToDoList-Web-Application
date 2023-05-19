@@ -1,0 +1,56 @@
+
+body {
+    padding-top: 50px;
+}
+
+#login-page,
+#main-page {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#todo-list {
+    margin-top: 20px;
+}
+
+body {
+    background-image: url('/images/pngtree-blue-background-with-geometric-forms-image_280879.jpg');
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#login-page {
+    background-color: darkgray;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#login-form {
+    margin-left: 2%;
+    width: 90%;
+}
+
+button {
+    margin-bottom: 2%;
+    background-color: black;
+    color: white;
+}
+
+#login-error {
+    display: none;
+    color: red;
+    font-weight: 700;
+}
+
+label {
+    margin-left: 5px;
+}
+#logout-link{
+    color:black;
+}
